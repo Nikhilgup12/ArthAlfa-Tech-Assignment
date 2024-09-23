@@ -24,7 +24,7 @@ const App = () => {
     const regex = new RegExp(searchString, 'g');  
     const newText = text.replaceAll(regex, replaceString);
     setText(newText);
-
+    
   
     const highlighted = newText.replaceAll(replaceString, `<span class="highlight">${replaceString}</span>`);
     setHighlightedText(highlighted);

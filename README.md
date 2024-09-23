@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Text Statistics and Replacement App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React application that allows users to input text and provides real-time statistics, including unique word count and character count (excluding spaces and punctuation). Users can also replace specified strings dynamically and see the highlighted results.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Real-Time Statistics**:
+  - Count of unique words.
+  - Character count excluding spaces and punctuation.
+  
+- **String Replacement**:
+  - Input fields for specifying a string to search and a string to replace it with.
+  - Button to replace all occurrences of the search string in the text.
 
-### `npm start`
+- **Highlighting**:
+  - Highlight replaced strings for better visibility (bonus feature).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React (Functional Components)
+- CSS for styling
+- JavaScript for functionality
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run this project locally, follow these steps:
 
-### `npm run build`
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Nikhilgup12/ArthAlfa-Tech-Assignment.git
+2. **Navigate to the project directory**:
+    cd "ArthAlfa Tech Assignment/myapp"
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Live Demo
+You can try out the deployed application here: https://arth-alfa-tech-assignment.vercel.app/ 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Usage
+Enter your text in the provided textarea.
+The app will automatically display:
+The count of unique words.
+The number of characters, excluding spaces and punctuation.
+For string replacement:
+Fill in the first input field with the string you want to find.
+Enter the replacement string in the second input field.
+Click the "Replace All" button.
+The replaced strings will be highlighted for clarity.
+Bonus Features
+The application includes a highlighting feature that visually distinguishes replaced strings, enhancing user engagement and clarity.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Acknowledgments
 
-### `npm run eject`
+Special thanks to the React community and resources that provided guidance in developing this application.
+Inspiration drawn from user interface design patterns for text manipulation applications.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
